@@ -1,0 +1,17 @@
+@api = http://localhost:4000/devices
+
+
+GET  {{api}}
+
+###
+POST {{api}} 
+Content-Type: application/json
+
+{
+    "enumber": 122005,
+    "coordenada": "20.685838155579724 -87.05337775108016",
+    "idUsuario": 1,
+    "idioma": "esp"
+}
+
+
